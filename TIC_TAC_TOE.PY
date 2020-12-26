@@ -87,7 +87,7 @@ while True:
     print(board["D1"]+"|"+board["D2"]+"|"+board["D3"])
 
     end_check=check()
-    if total_moves==9 and end_check==1:
+    if total_moves==9 or end_check==1:
         break
     while True:
         if player==1:
